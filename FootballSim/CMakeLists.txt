@@ -29,6 +29,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         mainwindow.h mainwindow.cpp
         dialog.h dialog.cpp
         dialog.h dialog.cpp dialog.ui
+        team.h team.cpp
+        player.h player.cpp
 
 
     )
