@@ -31,6 +31,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         dialog.h dialog.cpp dialog.ui
         team.h team.cpp
         player.h player.cpp
+        match.h match.cpp
 
 
     )

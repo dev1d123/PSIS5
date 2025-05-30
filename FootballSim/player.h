@@ -8,7 +8,9 @@ public:
 
     Player(const QString &name, int age, const QString &position, int number, double rating);
 
-
+    bool operator==(const Player &other) const {
+        return name == other.name && number == other.number;
+    }
     QString getName() const;
     int getAge() const;
     QString getPosition() const;
