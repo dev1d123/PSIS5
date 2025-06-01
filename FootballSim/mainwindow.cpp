@@ -16,7 +16,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->pushButton, &QPushButton::clicked, this, [this]() {
         Dialog *d = new Dialog(this);
         connect(d, &Dialog::mensajeEnviado, this, &MainWindow::recibirMensaje);
-        d->exec(); // ventana modal
+        d->exec();
         delete d;
     });
 }
