@@ -1,5 +1,20 @@
 <RCC>
     <qresource prefix="/images">
         <file>rmd.png</file>
+        <file>atalanta.png</file>
+        <file>bayern.png</file>
+        <file>benfica.png</file>
+        <file>borussia.png</file>
+        <file>brugge.png</file>
+        <file>celtic.png</file>
+        <file>feyenoord.png</file>
+        <file>juventus.png</file>
+        <file>lisboa.png</file>
+        <file>manchester.png</file>
+        <file>milan.png</file>
+        <file>monaco.png</file>
+        <file>psg.png</file>
+        <file>psv.png</file>
+        <file>stade.png</file>
     </qresource>
 </RCC>

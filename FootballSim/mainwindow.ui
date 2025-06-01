@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1884</width>
+    <height>965</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,36 +17,2184 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>360</y>
+      <x>860</x>
+      <y>820</y>
       <width>221</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>Abrir ventana secundaria</string>
+     <string>Continuar simulacion</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
-    <property name="enabled">
-     <bool>true</bool>
-    </property>
+   <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>250</y>
-      <width>81</width>
-      <height>101</height>
+      <x>70</x>
+      <y>10</y>
+      <width>86</width>
+      <height>86</height>
      </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>10</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>120</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>120</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>340</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>230</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>230</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>340</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>670</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>780</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>560</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>450</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>670</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>450</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>780</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>560</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>60</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>60</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>290</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>290</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_22">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>510</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_23">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>510</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_24">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>730</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_25">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>730</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>180</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_27">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>180</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_28">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>620</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_29">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>620</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
     </property>
     <property name="text">
      <string/>
     </property>
-    <property name="pixmap">
-     <pixmap resource="resources.qrc">:/images/rmd.png</pixmap>
+   </widget>
+   <widget class="QLabel" name="label_30">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>330</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
     </property>
-    <property name="scaledContents">
-     <bool>true</bool>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_31">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>460</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_32">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>400</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_35">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>400</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_36">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>330</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_37">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>460</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_33">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>170</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_34">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>610</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_38">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>170</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_39">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>610</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_40">
+    <property name="geometry">
+     <rect>
+      <x>1510</x>
+      <y>280</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_41">
+    <property name="geometry">
+     <rect>
+      <x>1390</x>
+      <y>50</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_42">
+    <property name="geometry">
+     <rect>
+      <x>1390</x>
+      <y>280</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_43">
+    <property name="geometry">
+     <rect>
+      <x>1510</x>
+      <y>50</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_44">
+    <property name="geometry">
+     <rect>
+      <x>1510</x>
+      <y>720</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_45">
+    <property name="geometry">
+     <rect>
+      <x>1390</x>
+      <y>500</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_46">
+    <property name="geometry">
+     <rect>
+      <x>1510</x>
+      <y>500</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_47">
+    <property name="geometry">
+     <rect>
+      <x>1390</x>
+      <y>720</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_48">
+    <property name="geometry">
+     <rect>
+      <x>1740</x>
+      <y>560</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_49">
+    <property name="geometry">
+     <rect>
+      <x>1740</x>
+      <y>780</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_50">
+    <property name="geometry">
+     <rect>
+      <x>1630</x>
+      <y>450</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_51">
+    <property name="geometry">
+     <rect>
+      <x>1630</x>
+      <y>230</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_52">
+    <property name="geometry">
+     <rect>
+      <x>1630</x>
+      <y>560</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_53">
+    <property name="geometry">
+     <rect>
+      <x>1740</x>
+      <y>340</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_54">
+    <property name="geometry">
+     <rect>
+      <x>1630</x>
+      <y>120</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_55">
+    <property name="geometry">
+     <rect>
+      <x>1630</x>
+      <y>780</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_56">
+    <property name="geometry">
+     <rect>
+      <x>1630</x>
+      <y>10</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_57">
+    <property name="geometry">
+     <rect>
+      <x>1740</x>
+      <y>230</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_58">
+    <property name="geometry">
+     <rect>
+      <x>1740</x>
+      <y>670</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_59">
+    <property name="geometry">
+     <rect>
+      <x>1740</x>
+      <y>450</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_60">
+    <property name="geometry">
+     <rect>
+      <x>1740</x>
+      <y>10</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_61">
+    <property name="geometry">
+     <rect>
+      <x>1630</x>
+      <y>340</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_62">
+    <property name="geometry">
+     <rect>
+      <x>1630</x>
+      <y>670</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_63">
+    <property name="geometry">
+     <rect>
+      <x>1740</x>
+      <y>120</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
     </property>
    </widget>
   </widget>
@@ -55,15 +2203,13 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1884</width>
      <height>24</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources>
-  <include location="resources.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
