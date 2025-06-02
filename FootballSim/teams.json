@@ -1,0 +1,309 @@
+{
+  "teams": [
+    {
+      "name": "Atalanta",
+      "coach": "Gian Piero Gasperini",
+      "country": "Italy",
+      "logo": "/images/atalanta.png",
+      "players": [
+        {"name": "Juan Musso", "age": 28, "position": "Goalkeeper", "number": 1, "rating": 78},
+        {"name": "Hans Hateboer", "age": 29, "position": "Defender", "number": 33, "rating": 79},
+        {"name": "Merih Demiral", "age": 25, "position": "Defender", "number": 28, "rating": 78},
+        {"name": "Matteo Ruggeri", "age": 22, "position": "Defender", "number": 19, "rating": 75},
+        {"name": "Robin Gosens", "age": 28, "position": "Defender", "number": 8, "rating": 82},
+        {"name": "Marten de Roon", "age": 31, "position": "Midfielder", "number": 15, "rating": 79},
+        {"name": "Teun Koopmeiners", "age": 25, "position": "Midfielder", "number": 7, "rating": 81},
+        {"name": "Remo Freuler", "age": 29, "position": "Midfielder", "number": 11, "rating": 78},
+        {"name": "Ruslan Malinovskyi", "age": 28, "position": "Midfielder", "number": 72, "rating": 80},
+        {"name": "Duván Zapata", "age": 31, "position": "Forward", "number": 91, "rating": 81},
+        {"name": "Luis Muriel", "age": 30, "position": "Forward", "number": 9, "rating": 79}
+      ]
+    },
+    {
+      "name": "Bayern",
+      "coach": "Julian Nagelsmann",
+      "country": "Germany",
+      "logo": "/images/bayern.png",
+      "players": [
+        {"name": "Manuel Neuer", "age": 36, "position": "Goalkeeper", "number": 1, "rating": 89},
+        {"name": "Benjamin Pavard", "age": 27, "position": "Defender", "number": 5, "rating": 81},
+        {"name": "Niklas Süle", "age": 26, "position": "Defender", "number": 4, "rating": 83},
+        {"name": "Lucas Hernández", "age": 26, "position": "Defender", "number": 21, "rating": 80},
+        {"name": "Alphonso Davies", "age": 22, "position": "Defender", "number": 19, "rating": 84},
+        {"name": "Joshua Kimmich", "age": 27, "position": "Midfielder", "number": 6, "rating": 88},
+        {"name": "Leon Goretzka", "age": 27, "position": "Midfielder", "number": 18, "rating": 84},
+        {"name": "Thomas Müller", "age": 33, "position": "Midfielder", "number": 25, "rating": 84},
+        {"name": "Leroy Sané", "age": 26, "position": "Midfielder", "number": 10, "rating": 83},
+        {"name": "Kingsley Coman", "age": 26, "position": "Forward", "number": 29, "rating": 82},
+        {"name": "Robert Lewandowski", "age": 34, "position": "Forward", "number": 9, "rating": 91}
+      ]
+    },
+    {
+      "name": "Benfica",
+      "coach": "Roger Schmidt",
+      "country": "Portugal",
+      "logo": "/images/benfica.png",
+      "players": [
+        {"name": "Odysseas Vlachodimos", "age": 30, "position": "Goalkeeper", "number": 99, "rating": 78},
+        {"name": "Gilberto", "age": 31, "position": "Defender", "number": 6, "rating": 77},
+        {"name": "Jan Vertonghen", "age": 35, "position": "Defender", "number": 5, "rating": 78},
+        {"name": "Nicolás Otamendi", "age": 34, "position": "Defender", "number": 30, "rating": 77},
+        {"name": "Álex Grimaldo", "age": 27, "position": "Defender", "number": 3, "rating": 79},
+        {"name": "Enzo Fernández", "age": 22, "position": "Midfielder", "number": 18, "rating": 82},
+        {"name": "Pizzi", "age": 32, "position": "Midfielder", "number": 21, "rating": 79},
+        {"name": "Julian Weigl", "age": 27, "position": "Midfielder", "number": 8, "rating": 77},
+        {"name": "Rafa Silva", "age": 30, "position": "Midfielder", "number": 27, "rating": 82},
+        {"name": "Haris Seferovic", "age": 31, "position": "Forward", "number": 14, "rating": 77},
+        {"name": "Gonçalo Ramos", "age": 21, "position": "Forward", "number": 10, "rating": 80}
+      ]
+    },
+    {
+      "name": "Borussia",
+      "coach": "Marco Rose",
+      "country": "Germany",
+      "logo": "/images/borussia.png",
+      "players": [
+        {"name": "Gregor Kobel", "age": 25, "position": "Goalkeeper", "number": 1, "rating": 80},
+        {"name": "Raphaël Guerreiro", "age": 28, "position": "Defender", "number": 13, "rating": 81},
+        {"name": "Nico Schlotterbeck", "age": 24, "position": "Defender", "number": 4, "rating": 79},
+        {"name": "Matthias Ginter", "age": 27, "position": "Defender", "number": 28, "rating": 78},
+        {"name": "Mats Hummels", "age": 33, "position": "Defender", "number": 15, "rating": 79},
+        {"name": "Jude Bellingham", "age": 20, "position": "Midfielder", "number": 22, "rating": 85},
+        {"name": "Florian Wirtz", "age": 19, "position": "Midfielder", "number": 10, "rating": 82},
+        {"name": "Mahmoud Dahoud", "age": 27, "position": "Midfielder", "number": 8, "rating": 78},
+        {"name": "Julian Brandt", "age": 25, "position": "Midfielder", "number": 19, "rating": 80},
+        {"name": "Marco Reus", "age": 33, "position": "Forward", "number": 11, "rating": 83},
+        {"name": "Youssoufa Moukoko", "age": 18, "position": "Forward", "number": 18, "rating": 79}
+      ]
+    },
+    {
+      "name": "Brugge",
+      "coach": "Carl Hoefkens",
+      "country": "Belgium",
+      "logo": "/images/brugge.png",
+      "players": [
+        {"name": "Simon Mignolet", "age": 34, "position": "Goalkeeper", "number": 1, "rating": 77},
+        {"name": "Eduard Sobol", "age": 29, "position": "Defender", "number": 2, "rating": 76},
+        {"name": "Odilon Kossounou", "age": 22, "position": "Defender", "number": 3, "rating": 78},
+        {"name": "Clinton Mata", "age": 30, "position": "Defender", "number": 23, "rating": 77},
+        {"name": "Matej Mitrović", "age": 30, "position": "Defender", "number": 18, "rating": 75},
+        {"name": "Hans Vanaken", "age": 30, "position": "Midfielder", "number": 14, "rating": 80},
+        {"name": "Noa Lang", "age": 24, "position": "Midfielder", "number": 10, "rating": 79},
+        {"name": "Ruud Vormer", "age": 33, "position": "Midfielder", "number": 20, "rating": 78},
+        {"name": "Eder Balanta", "age": 29, "position": "Midfielder", "number": 5, "rating": 75},
+        {"name": "David Okereke", "age": 25, "position": "Forward", "number": 9, "rating": 77},
+        {"name": "Noah Mbamba", "age": 18, "position": "Forward", "number": 8, "rating": 75}
+      ]
+    },
+    {
+      "name": "Celtic",
+      "coach": "Ange Postecoglou",
+      "country": "Scotland",
+      "logo": "/images/celtic.png",
+      "players": [
+        {"name": "Joe Hart", "age": 35, "position": "Goalkeeper", "number": 1, "rating": 75},
+        {"name": "Cameron Carter-Vickers", "age": 24, "position": "Defender", "number": 5, "rating": 76},
+        {"name": "Carl Starfelt", "age": 26, "position": "Defender", "number": 3, "rating": 77},
+        {"name": "Josip Juranovic", "age": 27, "position": "Defender", "number": 2, "rating": 77},
+        {"name": "Cameron Humphreys", "age": 21, "position": "Defender", "number": 19, "rating": 74},
+        {"name": "Callum McGregor", "age": 27, "position": "Midfielder", "number": 42, "rating": 79},
+        {"name": "David Turnbull", "age": 24, "position": "Midfielder", "number": 21, "rating": 77},
+        {"name": "Ryan Christie", "age": 27, "position": "Midfielder", "number": 10, "rating": 78},
+        {"name": "Liel Abada", "age": 21, "position": "Midfielder", "number": 7, "rating": 76},
+        {"name": "Kyogo Furuhashi", "age": 27, "position": "Forward", "number": 11, "rating": 80},
+        {"name": "Jota", "age": 26, "position": "Forward", "number": 20, "rating": 79}
+      ]
+    },
+    {
+      "name": "Feyenoord",
+      "coach": "Arne Slot",
+      "country": "Netherlands",
+      "logo": "/images/feyenoord.png",
+      "players": [
+        {"name": "Justin Bijlow", "age": 26, "position": "Goalkeeper", "number": 1, "rating": 78},
+        {"name": "Tyrell Malacia", "age": 23, "position": "Defender", "number": 12, "rating": 78},
+        {"name": "Marcus Pedersen", "age": 24, "position": "Defender", "number": 21, "rating": 77},
+        {"name": "Eric Botteghin", "age": 35, "position": "Defender", "number": 3, "rating": 75},
+        {"name": "Guus Til", "age": 24, "position": "Midfielder", "number": 28, "rating": 77},
+        {"name": "Orkun Kökcü", "age": 23, "position": "Midfielder", "number": 10, "rating": 79},
+        {"name": "Fredrik Aursnes", "age": 28, "position": "Midfielder", "number": 6, "rating": 77},
+        {"name": "Leroy Fer", "age": 34, "position": "Midfielder", "number": 8, "rating": 76},
+        {"name": "Luis Sinisterra", "age": 24, "position": "Forward", "number": 17, "rating": 80},
+        {"name": "Luis Díaz", "age": 25, "position": "Forward", "number": 7, "rating": 82},
+        {"name": "Cyriel Dessers", "age": 29, "position": "Forward", "number": 9, "rating": 77}
+      ]
+    },
+    {
+      "name": "Juventus",
+      "coach": "Massimiliano Allegri",
+      "country": "Italy",
+      "logo": "/images/juventus.png",
+      "players": [
+        {"name": "Wojciech Szczęsny", "age": 32, "position": "Goalkeeper", "number": 1, "rating": 85},
+        {"name": "Danilo", "age": 31, "position": "Defender", "number": 6, "rating": 80},
+        {"name": "Leonardo Bonucci", "age": 36, "position": "Defender", "number": 19, "rating": 81},
+        {"name": "Giorgio Chiellini", "age": 38, "position": "Defender", "number": 3, "rating": 80},
+        {"name": "Alex Sandro", "age": 32, "position": "Defender", "number": 12, "rating": 79},
+        {"name": "Adrien Rabiot", "age": 27, "position": "Midfielder", "number": 25, "rating": 79},
+        {"name": "Manuel Locatelli", "age": 25, "position": "Midfielder", "number": 5, "rating": 80},
+        {"name": "Paul Pogba", "age": 29, "position": "Midfielder", "number": 6, "rating": 83},
+        {"name": "Federico Chiesa", "age": 25, "position": "Forward", "number": 22, "rating": 82},
+        {"name": "Dusan Vlahovic", "age": 23, "position": "Forward", "number": 9, "rating": 83},
+        {"name": "Angel Di Maria", "age": 35, "position": "Forward", "number": 11, "rating": 82}
+      ]
+    },
+    {
+      "name": "Lisboa",
+      "coach": "Carlos Carvalhal",
+      "country": "Portugal",
+      "logo": "/images/lisboa.png",
+      "players": [
+        {"name": "Antonio Adán", "age": 35, "position": "Goalkeeper", "number": 1, "rating": 75},
+        {"name": "Nuno Tavares", "age": 23, "position": "Defender", "number": 2, "rating": 76},
+        {"name": "Pau Torres", "age": 25, "position": "Defender", "number": 4, "rating": 78},
+        {"name": "Rúben Dias", "age": 26, "position": "Defender", "number": 3, "rating": 85},
+        {"name": "Raphaël Guerreiro", "age": 28, "position": "Defender", "number": 27, "rating": 81},
+        {"name": "João Palhinha", "age": 27, "position": "Midfielder", "number": 14, "rating": 80},
+        {"name": "Pedro Gonçalves", "age": 24, "position": "Midfielder", "number": 28, "rating": 82},
+        {"name": "François Moubandje", "age": 30, "position": "Midfielder", "number": 18, "rating": 75},
+        {"name": "Daniel Bragança", "age": 23, "position": "Midfielder", "number": 8, "rating": 77},
+        {"name": "Harvey Barnes", "age": 25, "position": "Forward", "number": 7, "rating": 80},
+        {"name": "Pablo Sarabia", "age": 30, "position": "Forward", "number": 10, "rating": 79}
+      ]
+    },
+    {
+      "name": "Manchester",
+      "coach": "Erik ten Hag",
+      "country": "England",
+      "logo": "/images/manchester.png",
+      "players": [
+        {"name": "David de Gea", "age": 32, "position": "Goalkeeper", "number": 1, "rating": 85},
+        {"name": "Raphaël Varane", "age": 30, "position": "Defender", "number": 19, "rating": 84},
+        {"name": "Lisandro Martínez", "age": 25, "position": "Defender", "number": 6, "rating": 82},
+        {"name": "Luke Shaw", "age": 27, "position": "Defender", "number": 23, "rating": 81},
+        {"name": "Diogo Dalot", "age": 24, "position": "Defender", "number": 20, "rating": 79},
+        {"name": "Casemiro", "age": 31, "position": "Midfielder", "number": 18, "rating": 85},
+        {"name": "Bruno Fernandes", "age": 28, "position": "Midfielder", "number": 8, "rating": 87},
+        {"name": "Christian Eriksen", "age": 31, "position": "Midfielder", "number": 14, "rating": 84},
+        {"name": "Jadon Sancho", "age": 23, "position": "Forward", "number": 25, "rating": 83},
+        {"name": "Marcus Rashford", "age": 26, "position": "Forward", "number": 10, "rating": 84},
+        {"name": "Anthony Martial", "age": 27, "position": "Forward", "number": 9, "rating": 79}
+      ]
+    },
+    {
+      "name": "Milan",
+      "coach": "Stefano Pioli",
+      "country": "Italy",
+      "logo": "/images/milan.png",
+      "players": [
+        {"name": "Mike Maignan", "age": 27, "position": "Goalkeeper", "number": 16, "rating": 86},
+        {"name": "Davide Calabria", "age": 26, "position": "Defender", "number": 2, "rating": 79},
+        {"name": "Fikayo Tomori", "age": 25, "position": "Defender", "number": 23, "rating": 81},
+        {"name": "Pierre Kalulu", "age": 23, "position": "Defender", "number": 20, "rating": 78},
+        {"name": "Theo Hernández", "age": 25, "position": "Defender", "number": 19, "rating": 85},
+        {"name": "Sandro Tonali", "age": 23, "position": "Midfielder", "number": 8, "rating": 81},
+        {"name": "Ismaël Bennacer", "age": 25, "position": "Midfielder", "number": 4, "rating": 79},
+        {"name": "Rade Krunić", "age": 30, "position": "Midfielder", "number": 11, "rating": 76},
+        {"name": "Brahim Díaz", "age": 23, "position": "Midfielder", "number": 10, "rating": 78},
+        {"name": "Olivier Giroud", "age": 36, "position": "Forward", "number": 9, "rating": 81},
+        {"name": "Rafael Leão", "age": 23, "position": "Forward", "number": 17, "rating": 83}
+      ]
+    },
+    {
+      "name": "Monaco",
+      "coach": "Philippe Clement",
+      "country": "France",
+      "logo": "/images/monaco.png",
+      "players": [
+        {"name": "Alexander Nübel", "age": 26, "position": "Goalkeeper", "number": 16, "rating": 77},
+        {"name": "Caio Henrique", "age": 25, "position": "Defender", "number": 12, "rating": 78},
+        {"name": "Axel Disasi", "age": 26, "position": "Defender", "number": 5, "rating": 80},
+        {"name": "Jean Lucas", "age": 23, "position": "Midfielder", "number": 28, "rating": 75},
+        {"name": "Youssouf Fofana", "age": 25, "position": "Midfielder", "number": 8, "rating": 78},
+        {"name": "Cesc Fàbregas", "age": 36, "position": "Midfielder", "number": 4, "rating": 76},
+        {"name": "Wissam Ben Yedder", "age": 33, "position": "Forward", "number": 10, "rating": 81},
+        {"name": "Kevin Volland", "age": 30, "position": "Forward", "number": 9, "rating": 80},
+        {"name": "Gelson Martins", "age": 29, "position": "Forward", "number": 7, "rating": 77},
+        {"name": "Sofiane Diop", "age": 22, "position": "Forward", "number": 27, "rating": 76},
+        {"name": "Evan N'Dicka", "age": 24, "position": "Defender", "number": 3, "rating": 77}
+      ]
+    },
+    {
+      "name": "PSG",
+      "coach": "Luis Enrique",
+      "country": "France",
+      "logo": "/images/psg.png",
+      "players": [
+        {"name": "Gianluigi Donnarumma", "age": 24, "position": "Goalkeeper", "number": 50, "rating": 85},
+        {"name": "Achraf Hakimi", "age": 25, "position": "Defender", "number": 2, "rating": 83},
+        {"name": "Marquinhos", "age": 29, "position": "Defender", "number": 5, "rating": 85},
+        {"name": "Sergio Ramos", "age": 36, "position": "Defender", "number": 4, "rating": 79},
+        {"name": "Nuno Mendes", "age": 21, "position": "Defender", "number": 25, "rating": 80},
+        {"name": "Marco Verratti", "age": 30, "position": "Midfielder", "number": 6, "rating": 86},
+        {"name": "Leandro Paredes", "age": 29, "position": "Midfielder", "number": 8, "rating": 80},
+        {"name": "Vitinha", "age": 23, "position": "Midfielder", "number": 17, "rating": 81},
+        {"name": "Kylian Mbappé", "age": 25, "position": "Forward", "number": 7, "rating": 91},
+        {"name": "Neymar Jr.", "age": 31, "position": "Forward", "number": 10, "rating": 89},
+        {"name": "Lionel Messi", "age": 36, "position": "Forward", "number": 30, "rating": 90}
+      ]
+    },
+    {
+      "name": "PSV",
+      "coach": "Ruud van Nistelrooy",
+      "country": "Netherlands",
+      "logo": "/images/psv.png",
+      "players": [
+        {"name": "Yvon Mvogo", "age": 28, "position": "Goalkeeper", "number": 1, "rating": 76},
+        {"name": "Philipp Max", "age": 31, "position": "Defender", "number": 24, "rating": 77},
+        {"name": "Timo Baumgartl", "age": 27, "position": "Defender", "number": 4, "rating": 76},
+        {"name": "Armindo Tué Na Bangna", "age": 22, "position": "Defender", "number": 15, "rating": 75},
+        {"name": "Mario Götze", "age": 30, "position": "Midfielder", "number": 27, "rating": 78},
+        {"name": "Guus Til", "age": 24, "position": "Midfielder", "number": 8, "rating": 79},
+        {"name": "Xavi Simons", "age": 20, "position": "Midfielder", "number": 7, "rating": 77},
+        {"name": "Bruma", "age": 29, "position": "Forward", "number": 11, "rating": 77},
+        {"name": "Cody Gakpo", "age": 25, "position": "Forward", "number": 17, "rating": 82},
+        {"name": "Noa Lang", "age": 24, "position": "Forward", "number": 10, "rating": 79},
+        {"name": "Eran Zahavi", "age": 34, "position": "Forward", "number": 20, "rating": 76}
+      ]
+    },
+    {
+      "name": "RMD",
+      "coach": "Carlo Ancelotti",
+      "country": "Spain",
+      "logo": "/images/rmd.png",
+      "players": [
+        {"name": "Thibaut Courtois", "age": 31, "position": "Goalkeeper", "number": 1, "rating": 89},
+        {"name": "Dani Carvajal", "age": 30, "position": "Defender", "number": 2, "rating": 81},
+        {"name": "Éder Militão", "age": 25, "position": "Defender", "number": 3, "rating": 83},
+        {"name": "David Alaba", "age": 31, "position": "Defender", "number": 4, "rating": 84},
+        {"name": "Ferland Mendy", "age": 27, "position": "Defender", "number": 23, "rating": 81},
+        {"name": "Luka Modrić", "age": 37, "position": "Midfielder", "number": 10, "rating": 87},
+        {"name": "Toni Kroos", "age": 33, "position": "Midfielder", "number": 8, "rating": 86},
+        {"name": "Eduardo Camavinga", "age": 21, "position": "Midfielder", "number": 12, "rating": 82},
+        {"name": "Marco Asensio", "age": 27, "position": "Midfielder", "number": 11, "rating": 81},
+        {"name": "Vinícius Júnior", "age": 23, "position": "Forward", "number": 20, "rating": 85},
+        {"name": "Karim Benzema", "age": 35, "position": "Forward", "number": 9, "rating": 88}
+      ]
+    },
+    {
+      "name": "Stade",
+      "coach": "Julien Stephan",
+      "country": "France",
+      "logo": "/images/stade.png",
+      "players": [
+        {"name": "Benoît Costil", "age": 34, "position": "Goalkeeper", "number": 1, "rating": 75},
+        {"name": "Alexandre Letellier", "age": 33, "position": "Goalkeeper", "number": 16, "rating": 71},
+        {"name": "Youssouf Sabaly", "age": 29, "position": "Defender", "number": 17, "rating": 74},
+        {"name": "Gautier Lloris", "age": 25, "position": "Defender", "number": 3, "rating": 72},
+        {"name": "Florian Tardieu", "age": 32, "position": "Midfielder", "number": 8, "rating": 74},
+        {"name": "Thomas Mangani", "age": 36, "position": "Midfielder", "number": 21, "rating": 71},
+        {"name": "Yoann Gourcuff", "age": 35, "position": "Midfielder", "number": 10, "rating": 73},
+        {"name": "Faitout Maouassa", "age": 26, "position": "Defender", "number": 12, "rating": 73},
+        {"name": "Steeve Yago", "age": 32, "position": "Defender", "number": 20, "rating": 69},
+        {"name": "Nuno Da Costa", "age": 31, "position": "Forward", "number": 9, "rating": 70},
+        {"name": "Bafetimbi Gomis", "age": 37, "position": "Forward", "number": 18, "rating": 69}
+      ]
+    }
+  ]
+}
+

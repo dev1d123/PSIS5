@@ -33,6 +33,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         player.h player.cpp
         match.h match.cpp
         resources.qrc
+        tournament.h tournament.cpp
 
 
     )
