@@ -16,5 +16,6 @@
         <file>psg.png</file>
         <file>psv.png</file>
         <file>stade.png</file>
+        <file>teams.json</file>
     </qresource>
 </RCC>

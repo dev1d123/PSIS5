@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
     cout<<"Comenzando torneo"<<endl;
     cin>>;
 
-    Tournament xd;
+
     /*
     QApplication a(argc, argv);
     MainWindow w;
