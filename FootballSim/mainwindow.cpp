@@ -22,7 +22,7 @@ MainWindow::MainWindow(QVector<Team> equipos, QWidget *parent)
         d->exec();
         delete d;
     });
-
+    /*
     cout << "=== Equipos recibidos en MainWindow ===" << endl;
     for (const Team &team : equipos) {
         cout << "Equipo: " << team.getName().toStdString() << endl;
@@ -32,6 +32,7 @@ MainWindow::MainWindow(QVector<Team> equipos, QWidget *parent)
             << endl;
         }
     }
+    */
 }
 MainWindow::~MainWindow() {
     delete ui;

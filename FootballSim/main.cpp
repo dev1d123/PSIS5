@@ -8,7 +8,37 @@
 #include "team.h"
 #include "player.h"
 #include <bits/stdc++.h>
+#include "match.h"
 using namespace std;
+
+void simularRonda(const QVector<Team> &equipos, QVector<Team> &ganadores, const QString &nombreRonda) {
+    cout << "\n=== " << nombreRonda.toStdString() << " ===" << endl;
+    for (int i = 0; i < equipos.size(); i += 2) {
+        const Team &equipo1 = equipos[i];
+        const Team &equipo2 = equipos[i + 1];
+
+        int score1 = rand() % 5; // resultado aleatorio entre 0 y 4
+        int score2 = rand() % 5;
+
+        // Desempate si hay empate (para no usar penales en esta versión)
+        while (score1 == score2) {
+            score1 = rand() % 5;
+            score2 = rand() % 5;
+        }
+
+        cout << equipo1.getName().toStdString() << " " << score1
+             << " - " << score2 << " " << equipo2.getName().toStdString() << endl;
+
+        if (score1 > score2)
+            ganadores.append(equipo1);
+        else
+            ganadores.append(equipo2);
+    }
+
+    cout << "\nPresiona ENTER para continuar a la siguiente ronda...";
+    cin.ignore();
+}
+
 int main(int argc, char *argv[]) {
 
     cout<<"Comenzando torneo"<<endl;
@@ -51,7 +81,7 @@ int main(int argc, char *argv[]) {
         }
 
         teams.append(team);
-        /*
+
         cout << "Equipo cargado: " << name.toStdString() << endl;
         cout << "  Coach: " << coach.toStdString() << endl;
         cout << "  País: " << country.toStdString() << endl;
@@ -65,10 +95,41 @@ int main(int argc, char *argv[]) {
             << " | Rating: " << p.getRating()
             << endl;
         }
-        */
+
     }
+    cout<<"Iniciando torneo"<<endl;
 
+    // SIMULACIÓN DEL TORNEO
+    if (teams.size() != 16) {
+        cerr << "Se necesitan exactamente 16 equipos para simular el torneo." << endl;
+    } else {
+        srand(static_cast<unsigned int>(time(nullptr))); // semilla aleatoria
 
+        QVector<Team> rondaActual = teams;
+        std::random_shuffle(rondaActual.begin(), rondaActual.end());
+
+        QVector<Team> ganadores;
+
+        simularRonda(rondaActual, ganadores, "Octavos de Final");
+
+        rondaActual = ganadores;
+        ganadores.clear();
+        simularRonda(rondaActual, ganadores, "Cuartos de Final");
+
+        rondaActual = ganadores;
+        ganadores.clear();
+        simularRonda(rondaActual, ganadores, "Semifinales");
+
+        rondaActual = ganadores;
+        ganadores.clear();
+        simularRonda(rondaActual, ganadores, "Final");
+
+        cout << "\n🏆 ¡Campeón del torneo: "
+             << ganadores[0].getName().toStdString()
+             << "!\n" << endl;
+
+        cout << "Iniciando torneo gráfico en la ventana..." << endl;
+    }
 
     QApplication a(argc, argv);
     MainWindow w(teams); //aqui se deberian entregar los equipos necesarios
@@ -76,3 +137,4 @@ int main(int argc, char *argv[]) {
     return a.exec();
 
 }
+
