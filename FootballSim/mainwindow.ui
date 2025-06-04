@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>570</x>
-      <y>790</y>
+      <x>560</x>
+      <y>810</y>
       <width>221</width>
       <height>31</height>
      </rect>
@@ -31,23 +31,23 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>40</y>
-      <width>86</width>
-      <height>86</height>
+      <y>30</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -59,30 +59,30 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_OF_1b">
     <property name="geometry">
      <rect>
       <x>160</x>
-      <y>40</y>
-      <width>86</width>
-      <height>86</height>
+      <y>30</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -94,30 +94,31 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_OF_2a">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>270</y>
-      <width>86</width>
-      <height>86</height>
+      <x>30</x>
+      <y>260</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -129,30 +130,30 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_OF_2b">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>270</y>
-      <width>86</width>
-      <height>86</height>
+      <x>150</x>
+      <y>260</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -164,30 +165,31 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_OF_3a">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>490</y>
-      <width>86</width>
-      <height>86</height>
+      <x>30</x>
+      <y>480</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -199,30 +201,31 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_OF_3b">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>490</y>
-      <width>86</width>
-      <height>86</height>
+      <x>140</x>
+      <y>480</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -234,30 +237,31 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_OF_4a">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>710</y>
-      <width>86</width>
-      <height>86</height>
+      <x>30</x>
+      <y>700</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -269,30 +273,31 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_OF_4b">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>710</y>
-      <width>86</width>
-      <height>86</height>
+      <x>150</x>
+      <y>700</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -304,30 +309,31 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_CF_1">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>160</y>
-      <width>86</width>
-      <height>86</height>
+      <x>270</x>
+      <y>150</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -339,30 +345,30 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_CF_2">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>160</y>
-      <width>86</width>
-      <height>86</height>
+      <x>390</x>
+      <y>150</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -374,30 +380,32 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_CF_3">
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>600</y>
-      <width>86</width>
-      <height>86</height>
+      <y>590</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -409,30 +417,31 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_CF_4">
     <property name="geometry">
      <rect>
       <x>370</x>
-      <y>600</y>
-      <width>86</width>
-      <height>86</height>
+      <y>590</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -450,24 +459,25 @@
    <widget class="QLabel" name="label_SF_1">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>310</y>
-      <width>86</width>
-      <height>86</height>
+      <x>440</x>
+      <y>300</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -479,30 +489,30 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_SF_2">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>440</x>
       <y>440</y>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -514,30 +524,31 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_F_1">
     <property name="geometry">
      <rect>
-      <x>570</x>
-      <y>380</y>
-      <width>86</width>
-      <height>86</height>
+      <x>560</x>
+      <y>370</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -549,30 +560,30 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_F_2">
     <property name="geometry">
      <rect>
       <x>670</x>
-      <y>380</y>
-      <width>86</width>
-      <height>86</height>
+      <y>370</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -584,30 +595,30 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_SF_3">
     <property name="geometry">
      <rect>
       <x>780</x>
-      <y>310</y>
-      <width>86</width>
-      <height>86</height>
+      <y>300</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -619,30 +630,31 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_SF_4">
     <property name="geometry">
      <rect>
       <x>790</x>
-      <y>440</y>
-      <width>86</width>
-      <height>86</height>
+      <y>430</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -654,30 +666,31 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_CF_5">
     <property name="geometry">
      <rect>
-      <x>900</x>
-      <y>150</y>
-      <width>86</width>
-      <height>86</height>
+      <x>890</x>
+      <y>140</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -689,30 +702,31 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_CF_8">
     <property name="geometry">
      <rect>
-      <x>1000</x>
-      <y>590</y>
-      <width>86</width>
-      <height>86</height>
+      <x>990</x>
+      <y>580</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -724,30 +738,31 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_CF_6">
     <property name="geometry">
      <rect>
       <x>1010</x>
-      <y>150</y>
-      <width>86</width>
-      <height>86</height>
+      <y>140</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -759,30 +774,31 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_CF_7">
     <property name="geometry">
      <rect>
-      <x>900</x>
-      <y>590</y>
-      <width>86</width>
-      <height>86</height>
+      <x>880</x>
+      <y>580</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -794,30 +810,31 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_OF_6b">
     <property name="geometry">
      <rect>
       <x>1240</x>
-      <y>260</y>
-      <width>86</width>
-      <height>86</height>
+      <y>250</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -829,30 +846,31 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_OF_5a">
     <property name="geometry">
      <rect>
       <x>1120</x>
-      <y>30</y>
-      <width>86</width>
-      <height>86</height>
+      <y>20</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -864,30 +882,30 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_OF_6a">
     <property name="geometry">
      <rect>
       <x>1120</x>
-      <y>260</y>
-      <width>86</width>
-      <height>86</height>
+      <y>250</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -899,30 +917,30 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_OF_5b">
     <property name="geometry">
      <rect>
       <x>1240</x>
-      <y>30</y>
-      <width>86</width>
-      <height>86</height>
+      <y>20</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -934,30 +952,30 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_OF_8b">
     <property name="geometry">
      <rect>
-      <x>1240</x>
-      <y>700</y>
-      <width>86</width>
-      <height>86</height>
+      <x>1220</x>
+      <y>690</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -969,30 +987,30 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_OF_7a">
     <property name="geometry">
      <rect>
       <x>1120</x>
-      <y>480</y>
-      <width>86</width>
-      <height>86</height>
+      <y>470</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -1004,30 +1022,30 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_OF_7b">
     <property name="geometry">
      <rect>
       <x>1240</x>
-      <y>480</y>
-      <width>86</width>
-      <height>86</height>
+      <y>470</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -1039,30 +1057,31 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_OF_8a">
     <property name="geometry">
      <rect>
-      <x>1120</x>
-      <y>700</y>
-      <width>86</width>
-      <height>86</height>
+      <x>1110</x>
+      <y>690</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>96</width>
+      <height>96</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -1074,10 +1093,10 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_OF_1a">
+   <widget class="QLineEdit" name="text_OF_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1090,7 +1109,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_OF_1b">
+   <widget class="QLineEdit" name="text_OF_2">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1103,7 +1122,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_OF_2b">
+   <widget class="QLineEdit" name="text_OF_4">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1116,7 +1135,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_OF_2a">
+   <widget class="QLineEdit" name="text_OF_3">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1129,7 +1148,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_OF_3b">
+   <widget class="QLineEdit" name="text_OF_6">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1142,7 +1161,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_OF_3a">
+   <widget class="QLineEdit" name="text_OF_5">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1155,7 +1174,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_OF_4b">
+   <widget class="QLineEdit" name="text_OF_8">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1168,7 +1187,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_OF_4a">
+   <widget class="QLineEdit" name="text_OF_7">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1181,59 +1200,59 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_CF_2b">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>690</y>
-      <width>113</width>
-      <height>27</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="text_CF_2a">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>690</y>
-      <width>113</width>
-      <height>27</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="text_CF_1b">
+   <widget class="QLineEdit" name="text_CF_4">
     <property name="enabled">
      <bool>false</bool>
     </property>
     <property name="geometry">
      <rect>
       <x>370</x>
-      <y>250</y>
+      <y>690</y>
       <width>113</width>
       <height>27</height>
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_CF_1a">
+   <widget class="QLineEdit" name="text_CF_3">
     <property name="enabled">
      <bool>false</bool>
     </property>
     <property name="geometry">
      <rect>
       <x>250</x>
+      <y>690</y>
+      <width>113</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="text_CF_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>380</x>
       <y>250</y>
       <width>113</width>
       <height>27</height>
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_F_b">
+   <widget class="QLineEdit" name="text_CF_1">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>250</y>
+      <width>113</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="text_F_2">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1246,7 +1265,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_F_a">
+   <widget class="QLineEdit" name="text_F_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1259,7 +1278,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_SF_1a">
+   <widget class="QLineEdit" name="text_SF_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1272,20 +1291,20 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_SF_1b">
+   <widget class="QLineEdit" name="text_SF_2">
     <property name="enabled">
      <bool>false</bool>
     </property>
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>530</y>
+      <x>420</x>
+      <y>540</y>
       <width>113</width>
       <height>27</height>
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_SF_2a">
+   <widget class="QLineEdit" name="text_SF_3">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1298,20 +1317,20 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_SF_2b">
+   <widget class="QLineEdit" name="text_SF_4">
     <property name="enabled">
      <bool>false</bool>
     </property>
     <property name="geometry">
      <rect>
-      <x>770</x>
+      <x>780</x>
       <y>530</y>
       <width>113</width>
       <height>27</height>
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_SF_3b">
+   <widget class="QLineEdit" name="text_CF_6">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1324,7 +1343,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_SF_3a">
+   <widget class="QLineEdit" name="text_CF_5">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1337,7 +1356,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_OF_1a_21">
+   <widget class="QLineEdit" name="text_CF_8">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1350,7 +1369,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_SF_4a">
+   <widget class="QLineEdit" name="text_CF_7">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1363,7 +1382,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_OF_5b">
+   <widget class="QLineEdit" name="text_OF_10">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1376,7 +1395,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_OF_5a">
+   <widget class="QLineEdit" name="text_OF_9">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1389,33 +1408,33 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_OF_6b">
+   <widget class="QLineEdit" name="text_OF_12">
     <property name="enabled">
      <bool>false</bool>
     </property>
     <property name="geometry">
      <rect>
-      <x>1220</x>
+      <x>1230</x>
       <y>350</y>
       <width>113</width>
       <height>27</height>
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_OF_6a">
+   <widget class="QLineEdit" name="text_OF_11">
     <property name="enabled">
      <bool>false</bool>
     </property>
     <property name="geometry">
      <rect>
-      <x>1100</x>
+      <x>1110</x>
       <y>350</y>
       <width>113</width>
       <height>27</height>
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_OF_7b">
+   <widget class="QLineEdit" name="text_OF_14">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1428,7 +1447,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_OF_7a">
+   <widget class="QLineEdit" name="text_OF_13">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1441,7 +1460,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_OF_8b">
+   <widget class="QLineEdit" name="text_OF_16">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1454,7 +1473,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_OF_8a">
+   <widget class="QLineEdit" name="text_OF_15">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1470,24 +1489,24 @@
    <widget class="QLabel" name="label_W">
     <property name="geometry">
      <rect>
-      <x>630</x>
-      <y>700</y>
-      <width>86</width>
-      <height>86</height>
+      <x>610</x>
+      <y>690</y>
+      <width>116</width>
+      <height>116</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>86</width>
-      <height>86</height>
+      <width>116</width>
+      <height>116</height>
      </size>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    min-width: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    max-height: 70px;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    max-height: 100px;
 
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
                                       stop:0 #1e1e2f, stop:1 #2c2c3a);
@@ -1499,7 +1518,7 @@
 </string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
   </widget>

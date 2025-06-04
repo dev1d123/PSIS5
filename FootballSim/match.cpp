@@ -1,5 +1,5 @@
 #include "match.h"
-
+#include <QRandomGenerator>
 Match::Match(const Team &local, const Team &visitor, const QDateTime &dateTime, const QString &stadium)
     : localTeam(local), visitorTeam(visitor), matchDateTime(dateTime), stadium(stadium),
     possessionLocal(50), possessionVisitor(50),
@@ -80,7 +80,6 @@ int Match::getYellowCards(const Team &team) const {
     return count;
 }
 
-// Métodos similares para red cards, shots, etc.
 
 int Match::getPossessionForTeam(const Team &team) const {
     return (team.getName() == localTeam.getName()) ? possessionLocal : possessionVisitor;
@@ -92,4 +91,66 @@ double Match::getPassAccuracyForTeam(const Team &team) const {
     } else {
         return passesVisitorTotal > 0 ? (100.0 * passesVisitorCompleted / passesVisitorTotal) : 0.0;
     }
+}
+
+void Match::simulateMatch(const Team &local, const Team &visitor) {
+    localTeam = local;
+    visitorTeam = visitor;
+    events.clear();
+
+    const int matchDuration = 90;
+
+    // Simular posesión aleatoria entre 40 y 60
+    possessionLocal = QRandomGenerator::global()->bounded(40, 61);
+    possessionVisitor = 100 - possessionLocal;
+
+    // Simular goles
+    int goalsLocal = QRandomGenerator::global()->bounded(0, 5);
+    int goalsVisitor = QRandomGenerator::global()->bounded(0, 5);
+    if(goalsLocal == goalsVisitor) goalsLocal++;
+    for (int i = 0; i < goalsLocal; ++i) {
+        int minute = QRandomGenerator::global()->bounded(1, matchDuration + 1);
+        Player scorer = local.getPlayers().at(QRandomGenerator::global()->bounded(local.getPlayers().size()));
+        addEvent(minute, scorer, MatchEvent::Goal);
+    }
+    for (int i = 0; i < goalsVisitor; ++i) {
+        int minute = QRandomGenerator::global()->bounded(1, matchDuration + 1);
+        Player scorer = visitor.getPlayers().at(QRandomGenerator::global()->bounded(visitor.getPlayers().size()));
+        addEvent(minute, scorer, MatchEvent::Goal);
+    }
+
+    // Simular faltas
+    foulsLocal = QRandomGenerator::global()->bounded(5, 16);
+    foulsVisitor = QRandomGenerator::global()->bounded(5, 16);
+
+    // Simular offsides
+    offsidesLocal = QRandomGenerator::global()->bounded(0, 6);
+    offsidesVisitor = QRandomGenerator::global()->bounded(0, 6);
+
+    // Simular corners
+    cornersLocal = QRandomGenerator::global()->bounded(0, 10);
+    cornersVisitor = QRandomGenerator::global()->bounded(0, 10);
+
+    // Simular pases y precisión
+    passesLocalTotal = QRandomGenerator::global()->bounded(100, 600);
+    passesVisitorTotal = QRandomGenerator::global()->bounded(100, 600);
+
+    passesLocalCompleted = QRandomGenerator::global()->bounded(
+        static_cast<int>(passesLocalTotal * 0.5),
+        passesLocalTotal + 1
+    );
+
+    passesVisitorCompleted = QRandomGenerator::global()->bounded(
+        static_cast<int>(passesVisitorTotal * 0.5),
+        passesVisitorTotal + 1
+    );
+
+}
+
+int Match::getScore1() const {
+    return getGoalsForTeam(localTeam);
+}
+
+int Match::getScore2() const {
+    return getGoalsForTeam(visitorTeam);
 }

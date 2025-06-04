@@ -43,6 +43,21 @@ public:
     int getPossessionForTeam(const Team &team) const;
     double getPassAccuracyForTeam(const Team &team) const;
 
+    int getFoulsForTeam(const Team& team) const {
+        return (team.getName() == localTeam.getName()) ? foulsLocal : foulsVisitor;
+    }
+
+    int getOffsidesForTeam(const Team& team) const {
+        return (team.getName() == localTeam.getName()) ? offsidesLocal : offsidesVisitor;
+    }
+
+    int getCornersForTeam(const Team& team) const {
+        return (team.getName() == localTeam.getName()) ? cornersLocal : cornersVisitor;
+    }
+    void simulateMatch(const Team &local, const Team &visitor);
+    int getScore1() const;
+    int getScore2() const;
+
 private:
     Team localTeam;
     Team visitorTeam;
