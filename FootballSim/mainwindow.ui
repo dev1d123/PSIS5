@@ -17,14 +17,14 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>800</y>
+      <x>570</x>
+      <y>790</y>
       <width>221</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>Continuar simulacion</string>
+     <string>Jugar partido</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_OF_1a">
@@ -307,7 +307,7 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_CF_1a">
+   <widget class="QLabel" name="label_CF_1">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -342,7 +342,7 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_CF_1b">
+   <widget class="QLabel" name="label_CF_2">
     <property name="geometry">
      <rect>
       <x>380</x>
@@ -377,7 +377,7 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_CF_2a">
+   <widget class="QLabel" name="label_CF_3">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -412,7 +412,7 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_CF_2b">
+   <widget class="QLabel" name="label_CF_4">
     <property name="geometry">
      <rect>
       <x>370</x>
@@ -447,7 +447,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_SF_1a">
+   <widget class="QLabel" name="label_SF_1">
     <property name="geometry">
      <rect>
       <x>450</x>
@@ -482,7 +482,7 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_SF_1b">
+   <widget class="QLabel" name="label_SF_2">
     <property name="geometry">
      <rect>
       <x>450</x>
@@ -517,7 +517,7 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_F_a">
+   <widget class="QLabel" name="label_F_1">
     <property name="geometry">
      <rect>
       <x>570</x>
@@ -552,7 +552,7 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_F_b">
+   <widget class="QLabel" name="label_F_2">
     <property name="geometry">
      <rect>
       <x>670</x>
@@ -587,7 +587,7 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_SF_2a">
+   <widget class="QLabel" name="label_SF_3">
     <property name="geometry">
      <rect>
       <x>780</x>
@@ -622,7 +622,7 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_SF_2b">
+   <widget class="QLabel" name="label_SF_4">
     <property name="geometry">
      <rect>
       <x>790</x>
@@ -657,7 +657,7 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_CF_3a">
+   <widget class="QLabel" name="label_CF_5">
     <property name="geometry">
      <rect>
       <x>900</x>
@@ -692,7 +692,7 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_CF_4b">
+   <widget class="QLabel" name="label_CF_8">
     <property name="geometry">
      <rect>
       <x>1000</x>
@@ -727,7 +727,7 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_CF_3b">
+   <widget class="QLabel" name="label_CF_6">
     <property name="geometry">
      <rect>
       <x>1010</x>
@@ -762,7 +762,7 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_CF_4a">
+   <widget class="QLabel" name="label_CF_7">
     <property name="geometry">
      <rect>
       <x>900</x>
@@ -937,7 +937,7 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_CF_8b_2">
+   <widget class="QLabel" name="label_OF_8b">
     <property name="geometry">
      <rect>
       <x>1240</x>
@@ -1007,7 +1007,7 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_OF_8b">
+   <widget class="QLabel" name="label_OF_7b">
     <property name="geometry">
      <rect>
       <x>1240</x>
@@ -1337,7 +1337,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="text_SF_4b">
+   <widget class="QLineEdit" name="text_OF_1a_21">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -1465,6 +1465,41 @@
       <width>113</width>
       <height>27</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_W">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>700</y>
+      <width>86</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>86</width>
+      <height>86</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #1e1e2f, stop:1 #2c2c3a);
+    border: 3px solid #4FC3F7; /* celeste */
+    border-radius: 12px;
+    padding: 5px;
+    qproperty-alignment: 'AlignCenter';
+}
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
     </property>
    </widget>
   </widget>

@@ -98,6 +98,7 @@ int main(int argc, char *argv[]) {
 
     }
     cout<<"Iniciando torneo"<<endl;
+    std::random_shuffle(teams.begin(), teams.end());
 
     // SIMULACIÓN DEL TORNEO
     if (teams.size() != 16) {

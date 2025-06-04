@@ -1,21 +1,21 @@
 <RCC>
     <qresource prefix="/images">
-        <file>rmd.png</file>
-        <file>atalanta.png</file>
-        <file>bayern.png</file>
-        <file>benfica.png</file>
-        <file>borussia.png</file>
-        <file>brugge.png</file>
-        <file>celtic.png</file>
-        <file>feyenoord.png</file>
-        <file>juventus.png</file>
-        <file>lisboa.png</file>
-        <file>manchester.png</file>
-        <file>milan.png</file>
-        <file>monaco.png</file>
-        <file>psg.png</file>
-        <file>psv.png</file>
-        <file>stade.png</file>
+        <file>RMD.png</file>
+        <file>Atalanta.png</file>
+        <file>Bayern.png</file>
+        <file>Benfica.png</file>
+        <file>Borussia.png</file>
+        <file>Brugge.png</file>
+        <file>Celtic.png</file>
+        <file>Feyenoord.png</file>
+        <file>Juventus.png</file>
+        <file>Lisboa.png</file>
+        <file>Manchester.png</file>
+        <file>Milan.png</file>
+        <file>Monaco.png</file>
+        <file>PSG.png</file>
+        <file>PSV.png</file>
+        <file>Stade.png</file>
         <file>teams.json</file>
     </qresource>
 </RCC>

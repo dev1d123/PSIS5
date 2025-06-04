@@ -1,9 +1,11 @@
+// mainwindow.h
+
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
 #include <QMainWindow>
 #include "team.h"
-#include <QVector>
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -15,11 +17,24 @@ public:
     explicit MainWindow(QVector<Team> equipos, QWidget *parent = nullptr);
     ~MainWindow();
 
-public slots:
-    void recibirMensaje(const QString &msg); // slot para recibir mensajes
+    void recibirMensaje(const QString &msg);
 
 private:
-    QVector<Team> equipos;
+    enum Fase {
+        OCTAVOS,
+        CUARTOS,
+        SEMIFINALES,
+        FINAL,
+        COMPLETADO
+    };
+
+    void simularPartido(const QString &prefix, int equiposNecesarios, int ganadoresNecesarios, const QString &nombreFase);
+    void simularFinal();
     Ui::MainWindow *ui;
+    QVector<Team> equipos;
+    QVector<Team> equiposSiguienteFase;
+    Fase faseActual;
+    int partidoActual;
 };
+
 #endif // MAINWINDOW_H
