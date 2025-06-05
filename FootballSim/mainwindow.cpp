@@ -9,7 +9,8 @@
 #include <QRandomGenerator>
 #include <QPixmap>
 #include <algorithm>
-
+#include <QVBoxLayout>
+#include <QScrollArea>
 MainWindow::MainWindow(QVector<Team> equipos, QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -18,6 +19,20 @@ MainWindow::MainWindow(QVector<Team> equipos, QWidget *parent)
     , partidoActual(0)
 {
     ui->setupUi(this);
+    // Inicializar estadísticas para cada equipo
+    for (const Team& equipo : equipos) {
+        TeamStats stats;
+        stats.name = equipo.getName();
+
+        // Inicializar jugadores
+        for (const Player& player : equipo.getPlayers()) {
+            PlayerStats pStats;
+            pStats.name = player.getName();
+            stats.players.append(pStats);
+        }
+
+        teamStats[equipo.getName()] = stats;
+    }
 
     // Inicializar la interfaz con los equipos en octavos
     QList<QLabel*> ofLabels = this->findChildren<QLabel*>(QRegularExpression("^label_OF_"));
@@ -139,6 +154,40 @@ void MainWindow::simularPartido(const QString& prefix, const QString& prefix2, i
 
     mostrarResumenPartido(partido, nombreFase);
 
+    TeamStats& stats1 = teamStats[equipo1.getName()];
+    TeamStats& stats2 = teamStats[equipo2.getName()];
+    stats1.goalsFor += partido.getScore1();
+    stats2.goalsFor += partido.getScore2();
+    stats1.goalsAgainst += partido.getScore2();
+    stats2.goalsAgainst += partido.getScore1();
+    if (partido.getScore1() > partido.getScore2()) {
+        stats1.wins++;
+        stats2.losses++;
+    } else {
+        stats2.wins++;
+        stats1.losses++;
+    }
+    for (const MatchEvent& evento : partido.getEvents()) {
+        if (evento.type == MatchEvent::Goal) {
+            for (PlayerStats& player : stats1.players) {
+                if (player.name == evento.player.getName()) {
+                    player.goals++;
+                    if (player.goals > stats1.topScorer.goals) {
+                        stats1.topScorer = player;
+                    }
+                }
+            }
+            for (PlayerStats& player : stats2.players) {
+                if (player.name == evento.player.getName()) {
+                    player.goals++;
+                    if (player.goals > stats2.topScorer.goals) {
+                        stats2.topScorer = player;
+                    }
+                }
+            }
+        }
+    }
+
     partidoActual++;
 
     if(partidoActual >= equiposNecesarios / 2) {
@@ -155,7 +204,73 @@ void MainWindow::simularPartido(const QString& prefix, const QString& prefix2, i
         }
     }
 }
+void MainWindow::mostrarEstadisticasFinales() {
+    // Crear el contenido del reporte
+    QString reporte;
+    QTextStream stream(&reporte);
 
+    stream << "<h1>Estadísticas Finales del Torneo</h1>";
+
+    // Estadísticas por equipo
+    stream << "<h2>Estadísticas por Equipo</h2>";
+    stream << "<table border='1' cellpadding='5' style='margin: 10px;'>";
+    stream << "<tr><th>Equipo</th><th>Partidos Ganados</th><th>Empates</th><th>Goles a Favor</th><th>Goleador</th><th>Goles</th></tr>";
+
+    for (const TeamStats& stats : teamStats) {
+        stream << "<tr>";
+        stream << "<td>" << stats.name << "</td>";
+        stream << "<td align='center'>" << stats.wins << "</td>";
+        stream << "<td align='center'>" << stats.draws << "</td>";
+        stream << "<td align='center'>" << stats.goalsFor << "</td>";
+        stream << "<td>" << stats.topScorer.name << "</td>";
+        stream << "<td align='center'>" << stats.topScorer.goals << "</td>";
+        stream << "</tr>";
+    }
+    stream << "</table>";
+
+    // Máximo goleador del torneo
+    PlayerStats maxScorer;
+    for (const TeamStats& stats : teamStats) {
+        if (stats.topScorer.goals > maxScorer.goals) {
+            maxScorer = stats.topScorer;
+        }
+    }
+
+    stream << "<h2>Máximo Goleador del Torneo</h2>";
+    stream << "<p style='margin: 10px;'><b>" << maxScorer.name << "</b> con " << maxScorer.goals << " goles</p>";
+
+    // Crear un widget personalizado con scroll
+    QWidget *scrollWidget = new QWidget();
+    QVBoxLayout *layout = new QVBoxLayout(scrollWidget);
+
+    QLabel *label = new QLabel(scrollWidget);
+    label->setTextFormat(Qt::RichText);
+    label->setText(reporte);
+    label->setWordWrap(true);
+    label->setMargin(10);
+
+    layout->addWidget(label);
+    scrollWidget->setLayout(layout);
+
+    QScrollArea *scrollArea = new QScrollArea();
+    scrollArea->setWidget(scrollWidget);
+    scrollArea->setWidgetResizable(true);
+    scrollArea->setMinimumSize(600, 400); // Tamaño mínimo
+
+    // Crear el diálogo
+    QDialog *dialog = new QDialog(this);
+    dialog->setWindowTitle("Estadísticas Finales");
+    QVBoxLayout *dialogLayout = new QVBoxLayout(dialog);
+    dialogLayout->addWidget(scrollArea);
+
+    // Botón de cierre
+    QPushButton *closeButton = new QPushButton("Cerrar", dialog);
+    connect(closeButton, &QPushButton::clicked, dialog, &QDialog::accept);
+    dialogLayout->addWidget(closeButton);
+
+    dialog->setLayout(dialogLayout);
+    dialog->exec();
+}
 void MainWindow::simularFinal() {
     if(equipos.size() < 2) {
         QMessageBox::warning(this, "Error", "No hay suficientes equipos para la final (se necesitan 2)");
@@ -215,7 +330,7 @@ void MainWindow::simularFinal() {
     faseActual = COMPLETADO;
 
     mostrarResumenPartido(partido, "CAMPEON");
-
+    mostrarEstadisticasFinales();
 
 }
 void MainWindow::mostrarResumenPartido(const Match& partido, const QString& fase) {
